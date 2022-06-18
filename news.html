@@ -1,229 +1,114 @@
 <!DOCTYPE html>
 <html
     class="supports-no-cookies js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
-    lang="en"
->
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <!-- Basic and Helper page needs -->
-        <meta http-equiv="x-ua-compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <meta name="theme-color" content="#ffffff" />
-        <link
-            rel="canonical"
-            href="https://labella-store-gaming.myshopify.com/"
-        />
-        <link
-            rel="shortcut icon"
-            href="https://cdn.shopify.com/s/files/1/0552/7568/4029/files/favicon_32x32.png?v=1630567728"
-            type="image/png"
-        />
-        <!-- Title and description -->
-        <title>news</title>
-        <!-- Helpers -->
-        <!-- /snippets/social-meta-tags.liquid -->
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="demo-store" />
-        <meta property="og:description" content="" />
-        <meta
-            property="og:url"
-            content="https://labella-store-gaming.myshopify.com/"
-        />
-        <meta property="og:site_name" content="demo-store" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="demo-store" />
-        <meta name="twitter:description" content="" />
-        <!-- CSS -->
-        <link
-            href="./demo-store_files/timber.scss.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/bootstrap.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/animate.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/font-awesome.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/slick.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/owl.carousel.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/owl.theme.default.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/swiper.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/themify-icons.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/simple-line-icons.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/ionicons.min.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/plugins.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/magnific-popup.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/theme-default.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/cart.api.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/style.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/theme-custom.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/theme-responsive.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/skin-theme.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <link
-            href="./demo-store_files/theme-color.css"
-            rel="stylesheet"
-            type="text/css"
-            media="all"
-        />
-        <script>
-            !(function (o) {
-                o.addEventListener('DOMContentLoaded', function () {
-                    (window.Shopify = window.Shopify || {}),
-                        (window.Shopify.recaptchaV3 = window.Shopify
-                            .recaptchaV3 || {
-                            siteKey: '6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9',
-                        });
-                    var t = [
-                        'form[action*="/contact"] input[name="form_type"][value="contact"]',
-                        'form[action*="/comments"] input[name="form_type"][value="new_comment"]',
-                        'form[action*="/account"] input[name="form_type"][value="customer_login"]',
-                        'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]',
-                        'form[action*="/account"] input[name="form_type"][value="create_customer"]',
-                        'form[action*="/contact"] input[name="form_type"][value="customer"]',
-                    ].join(',');
-                    function n(e) {
-                        e = e.target;
-                        null == e ||
-                            (null !=
-                                (e = (function e(t, n) {
-                                    if (null == t.parentElement) return null;
-                                    if ('FORM' != t.parentElement.tagName)
-                                        return e(t.parentElement, n);
-                                    for (
-                                        var o = t.parentElement.action, r = 0;
-                                        r < n.length;
-                                        r++
-                                    )
-                                        if (-1 !== o.indexOf(n[r]))
-                                            return t.parentElement;
-                                    return null;
-                                })(e, ['/contact', '/comments', '/account'])) &&
-                                null != e.querySelector(t) &&
-                                ((e = o.createElement('script')).setAttribute(
-                                    'src',
-                                    'https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js'
-                                ),
+    lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Basic and Helper page needs -->
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://labella-store-gaming.myshopify.com/" />
+    <link rel="shortcut icon"
+        href="https://cdn.shopify.com/s/files/1/0552/7568/4029/files/favicon_32x32.png?v=1630567728" type="image/png" />
+    <!-- Title and description -->
+    <title>news</title>
+    <!-- Helpers -->
+    <!-- /snippets/social-meta-tags.liquid -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="demo-store" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="https://labella-store-gaming.myshopify.com/" />
+    <meta property="og:site_name" content="demo-store" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="demo-store" />
+    <meta name="twitter:description" content="" />
+    <!-- CSS -->
+    <link href="./demo-store_files/timber.scss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/animate.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/slick.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/owl.carousel.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/owl.theme.default.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/swiper.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/simple-line-icons.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/plugins.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/magnific-popup.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/theme-default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/cart.api.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/theme-custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/theme-responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/skin-theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="./demo-store_files/theme-color.css" rel="stylesheet" type="text/css" media="all" />
+    <script>
+        !(function (o) {
+            o.addEventListener('DOMContentLoaded', function () {
+                (window.Shopify = window.Shopify || {}),
+                    (window.Shopify.recaptchaV3 = window.Shopify
+                        .recaptchaV3 || {
+                        siteKey: '6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9',
+                    });
+                var t = [
+                    'form[action*="/contact"] input[name="form_type"][value="contact"]',
+                    'form[action*="/comments"] input[name="form_type"][value="new_comment"]',
+                    'form[action*="/account"] input[name="form_type"][value="customer_login"]',
+                    'form[action*="/account"] input[name="form_type"][value="recover_customer_password"]',
+                    'form[action*="/account"] input[name="form_type"][value="create_customer"]',
+                    'form[action*="/contact"] input[name="form_type"][value="customer"]',
+                ].join(',');
+                function n(e) {
+                    e = e.target;
+                    null == e ||
+                        (null !=
+                            (e = (function e(t, n) {
+                                if (null == t.parentElement) return null;
+                                if ('FORM' != t.parentElement.tagName)
+                                    return e(t.parentElement, n);
+                                for (
+                                    var o = t.parentElement.action, r = 0;
+                                    r < n.length;
+                                    r++
+                                )
+                                    if (-1 !== o.indexOf(n[r]))
+                                        return t.parentElement;
+                                return null;
+                            })(e, ['/contact', '/comments', '/account'])) &&
+                            null != e.querySelector(t) &&
+                            ((e = o.createElement('script')).setAttribute(
+                                'src',
+                                'https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js'
+                            ),
                                 o.body.appendChild(e),
                                 o.removeEventListener('focus', n, !0),
                                 o.removeEventListener('change', n, !0),
                                 o.removeEventListener('click', n, !0)));
-                    }
-                    o.addEventListener('click', n, !0),
-                        o.addEventListener('change', n, !0),
-                        o.addEventListener('focus', n, !0);
-                });
-            })(document);
-        </script>
-        <script
-            integrity="sha256-N6F6ZjvOAMPhcD0kfZWNQQgx6eXaxFfh6aqfN0geLrU="
-            data-source-attribution="shopify.loadfeatures"
-            defer="defer"
-            src="./demo-store_files/load_feature-37a17a663bce00c3e1703d247d958d410831e9e5dac457e1e9aa9f37481e2eb5.js.baixados"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4="
-            data-source-attribution="shopify.dynamic-checkout"
-            defer="defer"
-            src="./demo-store_files/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js.baixados"
-            crossorigin="anonymous"
-        ></script>
-        <script>
-            window.performance &&
-                window.performance.mark &&
-                window.performance.mark('shopify.content_for_header.end');
-        </script>
-        <!-- /snippets/oldIE-js.liquid -->
-        <!--[if lt IE 9]>
+                }
+                o.addEventListener('click', n, !0),
+                    o.addEventListener('change', n, !0),
+                    o.addEventListener('focus', n, !0);
+            });
+        })(document);
+    </script>
+    <script integrity="sha256-N6F6ZjvOAMPhcD0kfZWNQQgx6eXaxFfh6aqfN0geLrU="
+        data-source-attribution="shopify.loadfeatures" defer="defer"
+        src="./demo-store_files/load_feature-37a17a663bce00c3e1703d247d958d410831e9e5dac457e1e9aa9f37481e2eb5.js.baixados"
+        crossorigin="anonymous"></script>
+    <script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4="
+        data-source-attribution="shopify.dynamic-checkout" defer="defer"
+        src="./demo-store_files/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js.baixados"
+        crossorigin="anonymous"></script>
+    <script>
+        window.performance &&
+            window.performance.mark &&
+            window.performance.mark('shopify.content_for_header.end');
+    </script>
+    <!-- /snippets/oldIE-js.liquid -->
+    <!--[if lt IE 9]>
             <script
                 src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"
                 type="text/javascript"
@@ -247,927 +132,591 @@
                 type="text/javascript"
             ></script>
         <![endif]-->
-        <!-- JS -->
-        <script src="./demo-store_files/modernizr-2.8.3.min.js.baixados"></script>
-        <script src="./demo-store_files/jquery-1.12.0.min.js.baixados"></script>
-        <script src="./demo-store_files/popper.min.js.baixados"></script>
-        <script src="./demo-store_files/bootstrap.min.js.baixados"></script>
-        <script src="./demo-store_files/plugins.js.baixados"></script>
-        <script src="./demo-store_files/jquery.elevateZoom-3.0.8.min.js.baixados"></script>
-        <script src="./demo-store_files/slick.min.js.baixados"></script>
-        <script src="./demo-store_files/owl.carousel.min.js.baixados"></script>
-        <script src="./demo-store_files/swiper.min.js.baixados"></script>
-        <script src="./demo-store_files/elevatezoom.js.baixados"></script>
-        <script src="./demo-store_files/instafeed.min.js.baixados"></script>
-        <script src="./demo-store_files/jquery.magnific-popup.min.js.baixados"></script>
-        <script src="./demo-store_files/jquery.lazyload.min.js.baixados"></script>
-        <script src="./demo-store_files/imagesloaded.pkgd.min.js.baixados"></script>
-        <script src="./demo-store_files/jquery.isotope.min.js.baixados"></script>
-        <!-- Ajax Cart js -->
-        <script src="./demo-store_files/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js.baixados"></script>
-        <script src="./demo-store_files/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js.baixados"></script>
-        <script src="./demo-store_files/cart.api.js.baixados"></script>
-        <script src="./demo-store_files/counter.js.baixados"></script>
-        <script src="./demo-store_files/jquery.countTo.js.baixados"></script>
-        <script src="./demo-store_files/main.js.baixados"></script>
-        <script
-            src="./demo-store_files/shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js.baixados"
-            type="text/javascript"
-        ></script>
-        <script
-            async=""
-            src="./demo-store_files/shop_events_listener-fa61fd11817b231631d2fe43dc869d0b1d14a06332792d42f1a1d94bda5aa31e.js.baixados"
-        ></script>
-        <link
-            href="./demo-store_files/shopify-boomerang-1.0.0.min.js.baixados"
-            rel="preload"
-            as="script"
-        />
-        <script
-            id="boomr-scr-as"
-            src="./demo-store_files/shopify-boomerang-1.0.0.min.js.baixados"
-            async=""
-        ></script>
-        <link
-            type="text/css"
-            rel="stylesheet"
-            href="./demo-store_files/flags.min.css"
-        />
-        <link
-            type="text/css"
-            rel="stylesheet"
-            href="./demo-store_files/bold-currency-picker.css"
-        />
-        <script
-            type="text/javascript"
-            src="./demo-store_files/spr-9103b734879a0dc295605773faadddcea7d659fbbb358d5d5d48b4485b5f43d9.js.baixados"
-        ></script>
-        <link
-            type="text/css"
-            rel="stylesheet"
-            media="screen"
-            href="./demo-store_files/spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css"
-        />
-        <script
-            type="text/javascript"
-            src="./demo-store_files/jquery.min.js.baixados"
-        ></script>
-    </head>
+    <!-- JS -->
+    <script src="./demo-store_files/modernizr-2.8.3.min.js.baixados"></script>
+    <script src="./demo-store_files/jquery-1.12.0.min.js.baixados"></script>
+    <script src="./demo-store_files/popper.min.js.baixados"></script>
+    <script src="./demo-store_files/bootstrap.min.js.baixados"></script>
+    <script src="./demo-store_files/plugins.js.baixados"></script>
+    <script src="./demo-store_files/jquery.elevateZoom-3.0.8.min.js.baixados"></script>
+    <script src="./demo-store_files/slick.min.js.baixados"></script>
+    <script src="./demo-store_files/owl.carousel.min.js.baixados"></script>
+    <script src="./demo-store_files/swiper.min.js.baixados"></script>
+    <script src="./demo-store_files/elevatezoom.js.baixados"></script>
+    <script src="./demo-store_files/instafeed.min.js.baixados"></script>
+    <script src="./demo-store_files/jquery.magnific-popup.min.js.baixados"></script>
+    <script src="./demo-store_files/jquery.lazyload.min.js.baixados"></script>
+    <script src="./demo-store_files/imagesloaded.pkgd.min.js.baixados"></script>
+    <script src="./demo-store_files/jquery.isotope.min.js.baixados"></script>
+    <!-- Ajax Cart js -->
+    <script
+        src="./demo-store_files/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js.baixados"></script>
+    <script
+        src="./demo-store_files/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js.baixados"></script>
+    <script src="./demo-store_files/cart.api.js.baixados"></script>
+    <script src="./demo-store_files/counter.js.baixados"></script>
+    <script src="./demo-store_files/jquery.countTo.js.baixados"></script>
+    <script src="./demo-store_files/main.js.baixados"></script>
+    <script
+        src="./demo-store_files/shopify_common-8ea6ac3faf357236a97f5de749df4da6e8436ca107bc3a4ee805cbf08bc47392.js.baixados"
+        type="text/javascript"></script>
+    <script async=""
+        src="./demo-store_files/shop_events_listener-fa61fd11817b231631d2fe43dc869d0b1d14a06332792d42f1a1d94bda5aa31e.js.baixados"></script>
+    <link href="./demo-store_files/shopify-boomerang-1.0.0.min.js.baixados" rel="preload" as="script" />
+    <script id="boomr-scr-as" src="./demo-store_files/shopify-boomerang-1.0.0.min.js.baixados" async=""></script>
+    <link type="text/css" rel="stylesheet" href="./demo-store_files/flags.min.css" />
+    <link type="text/css" rel="stylesheet" href="./demo-store_files/bold-currency-picker.css" />
+    <script type="text/javascript"
+        src="./demo-store_files/spr-9103b734879a0dc295605773faadddcea7d659fbbb358d5d5d48b4485b5f43d9.js.baixados"></script>
+    <link type="text/css" rel="stylesheet" media="screen"
+        href="./demo-store_files/spr-07102fd76ff4bc22a3e0c32f0cca9ee51c77c34bbc4bdac79abb48f698de10dd.css" />
+    <script type="text/javascript" src="./demo-store_files/jquery.min.js.baixados"></script>
+</head>
 
-    <body id="demo-store" class="template-index" style="">
-        <div class="header-area is-sticky">
-            <div class="header-main-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col">
-                            <div class="header-main">
-                                <div class="header-element logo">
-                                    <a href="#" class="theme-logo">
-                                        <img
-                                            src="./demo-store_files/logo.png"
-                                            alt="demo-store"
-                                        />
-                                    </a>
-                                    <style>
-                                        .logo a.shop-name span {
-                                            color: #000;
-                                            font-size: 24px;
-                                            font-weight: 600;
-                                        }
-                                    </style>
-                                </div>
-                                <div class="header-element megamenu-content">
-                                    <div
-                                        class="mainwrap collapse"
-                                        id="main-collapse"
-                                    >
-                                        <ul class="main-menu">
-                                            <li class="menu-link">
-                                                <a
-                                                    href="./demo-store.html"
-                                                    class="link-title"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Início</span
-                                                    >
-                                                </a>
-                                                <a
-                                                    href="./demo-store.html"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Início</span
-                                                    >
-                                                </a>
-                                            </li>
-                                            <script>
-                                                $('.megamenu-li')
-                                                    .parent('ul')
-                                                    .addClass('mega-menu');
-                                                $('.menu-banner')
-                                                    .parent('ul')
-                                                    .addClass('banner-menu');
-                                                $('.submenu-li')
-                                                    .parent('ul')
-                                                    .addClass('sub-menu');
-                                            </script>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="JavaScript:void(0)"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Baixe Agora</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="#"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Baixe Agora</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <ul
-                                                    class="dropdown-submenu collapse mega-menu banner-menu"
-                                                    id="collapse-all-collections"
-                                                >
-                                                    <li
-                                                        class="megamenu-li parant"
-                                                    >
-                                                        <h2
-                                                            class="sublink-title"
-                                                        >
-                                                            Links Úteis
-                                                        </h2>
-                                                        <a
-                                                            data-toggle="collapse"
-                                                            href="#"
-                                                            class="sublink-title"
-                                                        >
-                                                            <span
-                                                                >Links
-                                                                Úteis</span
-                                                            >
-                                                            <i
-                                                                class="fa fa-angle-down"
-                                                            ></i>
+<body id="demo-store" class="template-index" style="">
+    <div class="header-area is-sticky">
+        <div class="header-main-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <div class="header-main">
+                            <div class="header-element logo">
+                                <a href="#" class="theme-logo">
+                                    <img src="./demo-store_files/logo.png" alt="demo-store" />
+                                </a>
+                                <style>
+                                    .logo a.shop-name span {
+                                        color: #000;
+                                        font-size: 24px;
+                                        font-weight: 600;
+                                    }
+                                </style>
+                            </div>
+                            <div class="header-element megamenu-content">
+                                <div class="mainwrap collapse" id="main-collapse">
+                                    <ul class="main-menu">
+                                        <li class="menu-link">
+                                            <a href="./demo-store.html" class="link-title">
+                                                <span class="sp-link-title">Início</span>
+                                            </a>
+                                            <a href="./demo-store.html" class="link-title link-title-lg">
+                                                <span class="sp-link-title">Início</span>
+                                            </a>
+                                        </li>
+                                        <script>
+                                            $('.megamenu-li')
+                                                .parent('ul')
+                                                .addClass('mega-menu');
+                                            $('.menu-banner')
+                                                .parent('ul')
+                                                .addClass('banner-menu');
+                                            $('.submenu-li')
+                                                .parent('ul')
+                                                .addClass('sub-menu');
+                                        </script>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="JavaScript:void(0)">
+                                                <span class="sp-link-title">Baixe Agora</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="#" class="link-title link-title-lg">
+                                                <span class="sp-link-title">Baixe Agora</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-submenu collapse mega-menu banner-menu"
+                                                id="collapse-all-collections">
+                                                <li class="megamenu-li parant">
+                                                    <h2 class="sublink-title">
+                                                        Links Úteis
+                                                    </h2>
+                                                    <a data-toggle="collapse" href="#" class="sublink-title">
+                                                        <span>Links
+                                                            Úteis</span>
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="dropdown-supmenu collapse" id="collapse-headphone">
+                                                        <li class="supmenu-li">
+                                                            <a href="#" class="suplink-title">4Shared</a>
+                                                        </li>
+                                                        <li class="supmenu-li">
+                                                            <a href="#" class="suplink-title">Mediafire</a>
+                                                        </li>
+                                                        <li class="supmenu-li">
+                                                            <a href="#" class="suplink-title">Mega</a>
+                                                        </li>
+                                                        <li class="supmenu-li">
+                                                            <a href="#" class="suplink-title">Client.rar</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <div class="menu-banner bottom">
+                                                    <a href="#" class="banner-hover">
+                                                        <img src="./imgs/MANU.png" class="img-fluid" />
+                                                    </a>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <script>
+                                            $('.megamenu-li')
+                                                .parent('ul')
+                                                .addClass('mega-menu');
+                                            $('.menu-banner')
+                                                .parent('ul')
+                                                .addClass('banner-menu');
+                                            $('.submenu-li')
+                                                .parent('ul')
+                                                .addClass('sub-menu');
+                                        </script>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="./news.html">
+                                                <span class="sp-link-title">Notícias</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="./news.html"
+                                                class="link-title link-title-lg">
+                                                <span class="sp-link-title">Notícias</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-submenu collapse banner-menu" id="collapse-newest">
+                                                <li class="menu-banner">
+                                                    <div class="banner-wrap">
+                                                        <a href="./news.html" class="menu-banner-img banner-hover">
+                                                            <img src="./imgs/NEWS1.png" class="img-fluid" />
                                                         </a>
-                                                        <ul
-                                                            class="dropdown-supmenu collapse"
-                                                            id="collapse-headphone"
-                                                        >
-                                                            <li
-                                                                class="supmenu-li"
-                                                            >
-                                                                <a
-                                                                    href="#"
-                                                                    class="suplink-title"
-                                                                    >4Shared</a
-                                                                >
-                                                            </li>
-                                                            <li
-                                                                class="supmenu-li"
-                                                            >
-                                                                <a
-                                                                    href="#"
-                                                                    class="suplink-title"
-                                                                    >Mediafire</a
-                                                                >
-                                                            </li>
-                                                            <li
-                                                                class="supmenu-li"
-                                                            >
-                                                                <a
-                                                                    href="#"
-                                                                    class="suplink-title"
-                                                                    >Mega</a
-                                                                >
-                                                            </li>
-                                                            <li
-                                                                class="supmenu-li"
-                                                            >
-                                                                <a
-                                                                    href="#"
-                                                                    class="suplink-title"
-                                                                    >Client.rar</a
-                                                                >
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <div
-                                                        class="menu-banner bottom"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="banner-hover"
-                                                        >
-                                                            <img
-                                                                src="./imgs/MANU.png"
-                                                                class="img-fluid"
-                                                            />
+                                                        <a href="#" class="menu-banner-title">
+                                                            <span>Últimas
+                                                                Notícias</span>
                                                         </a>
                                                     </div>
-                                                </ul>
-                                            </li>
-                                            <script>
-                                                $('.megamenu-li')
-                                                    .parent('ul')
-                                                    .addClass('mega-menu');
-                                                $('.menu-banner')
-                                                    .parent('ul')
-                                                    .addClass('banner-menu');
-                                                $('.submenu-li')
-                                                    .parent('ul')
-                                                    .addClass('sub-menu');
-                                            </script>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="./news.html"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Notícias</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="./news.html"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Notícias</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <ul
-                                                    class="dropdown-submenu collapse banner-menu"
-                                                    id="collapse-newest"
-                                                >
-                                                    <li class="menu-banner">
-                                                        <div
-                                                            class="banner-wrap"
-                                                        >
-                                                            <a
-                                                                href="./news.html"
-                                                                class="menu-banner-img banner-hover"
-                                                            >
-                                                                <img
-                                                                    src="./imgs/NEWS1.png"
-                                                                    class="img-fluid"
-                                                                />
-                                                            </a>
-                                                            <a
-                                                                href="#"
-                                                                class="menu-banner-title"
-                                                            >
-                                                                <span
-                                                                    >Últimas
-                                                                    Notícias</span
-                                                                >
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                    <li class="menu-banner">
-                                                        <div
-                                                            class="banner-wrap"
-                                                        >
-                                                            <a
-                                                                href="#"
-                                                                class="menu-banner-img banner-hover"
-                                                            >
-                                                                <img
-                                                                    src="./imgs/MANU.png"
-                                                                    class="img-fluid"
-                                                                />
-                                                            </a>
-                                                            <a
-                                                                href="#"
-                                                                class="menu-banner-title"
-                                                            >
-                                                                <span
-                                                                    >Manutenção</span
-                                                                >
-                                                            </a>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <script>
-                                                $('.megamenu-li')
-                                                    .parent('ul')
-                                                    .addClass('mega-menu');
-                                                $('.menu-banner')
-                                                    .parent('ul')
-                                                    .addClass('banner-menu');
-                                                $('.submenu-li')
-                                                    .parent('ul')
-                                                    .addClass('sub-menu');
-                                            </script>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="./guide.html"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Guia</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="./guide.html"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Guia</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                            </li>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="JavaScript:void(0)"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Ranking</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="#"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Ranking</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <ul
-                                                    class="dropdown-submenu collapse sub-menu"
-                                                    id="collapse-pages"
-                                                >
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Rank Top Level</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Rank Top PVP</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Rank City</a
-                                                        >
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="JavaScript:void(0)"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Doação</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="#"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Doação</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                            </li>
-                                            <li class="menu-link parant">
-                                                <a
-                                                    class="link-title"
-                                                    href="JavaScript:void(0)"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Suporte</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <a
-                                                    data-toggle="collapse"
-                                                    href="#"
-                                                    class="link-title link-title-lg"
-                                                >
-                                                    <span class="sp-link-title"
-                                                        >Suporte</span
-                                                    >
-                                                    <i
-                                                        class="fa fa-angle-down"
-                                                    ></i>
-                                                </a>
-                                                <ul
-                                                    class="dropdown-submenu collapse sub-menu"
-                                                    id="collapse-pages"
-                                                >
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Sobre nós</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Contato</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Faq's</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Política de
-                                                            Pagamento</a
-                                                        >
-                                                    </li>
-                                                    <li
-                                                        class="submenu-li parant"
-                                                    >
-                                                        <a
-                                                            href="#"
-                                                            class="sublink-title"
-                                                            >Termos &amp;
-                                                            condições</a
-                                                        >
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <script>
-                                                $('.megamenu-li')
-                                                    .parent('ul')
-                                                    .addClass('mega-menu');
-                                                $('.menu-banner')
-                                                    .parent('ul')
-                                                    .addClass('banner-menu');
-                                                $('.submenu-li')
-                                                    .parent('ul')
-                                                    .addClass('sub-menu');
-                                            </script>
-                                        </ul>
-                                    </div>
+                                                </li>
+                                                <li class="menu-banner">
+                                                    <div class="banner-wrap">
+                                                        <a href="#" class="menu-banner-img banner-hover">
+                                                            <img src="./imgs/MANU.png" class="img-fluid" />
+                                                        </a>
+                                                        <a href="#" class="menu-banner-title">
+                                                            <span>Manutenção</span>
+                                                        </a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <script>
+                                            $('.megamenu-li')
+                                                .parent('ul')
+                                                .addClass('mega-menu');
+                                            $('.menu-banner')
+                                                .parent('ul')
+                                                .addClass('banner-menu');
+                                            $('.submenu-li')
+                                                .parent('ul')
+                                                .addClass('sub-menu');
+                                        </script>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="./guide.html">
+                                                <span class="sp-link-title">Guia</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="./guide.html"
+                                                class="link-title link-title-lg">
+                                                <span class="sp-link-title">Guia</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                        </li>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="JavaScript:void(0)">
+                                                <span class="sp-link-title">Ranking</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="#" class="link-title link-title-lg">
+                                                <span class="sp-link-title">Ranking</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-submenu collapse sub-menu" id="collapse-pages">
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Rank Top Level</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Rank Top PVP</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Rank City</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="JavaScript:void(0)">
+                                                <span class="sp-link-title">Doação</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="#" class="link-title link-title-lg">
+                                                <span class="sp-link-title">Doação</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                        </li>
+                                        <li class="menu-link parant">
+                                            <a class="link-title" href="JavaScript:void(0)">
+                                                <span class="sp-link-title">Suporte</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <a data-toggle="collapse" href="#" class="link-title link-title-lg">
+                                                <span class="sp-link-title">Suporte</span>
+                                                <i class="fa fa-angle-down"></i>
+                                            </a>
+                                            <ul class="dropdown-submenu collapse sub-menu" id="collapse-pages">
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Sobre nós</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Contato</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Faq's</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Política de
+                                                        Pagamento</a>
+                                                </li>
+                                                <li class="submenu-li parant">
+                                                    <a href="#" class="sublink-title">Termos &amp;
+                                                        condições</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <script>
+                                            $('.megamenu-li')
+                                                .parent('ul')
+                                                .addClass('mega-menu');
+                                            $('.menu-banner')
+                                                .parent('ul')
+                                                .addClass('banner-menu');
+                                            $('.submenu-li')
+                                                .parent('ul')
+                                                .addClass('sub-menu');
+                                        </script>
+                                    </ul>
                                 </div>
-                                <div class="header-element right-block-box">
-                                    <button class="navbar-button">
-                                        Painel de Controle
-                                    </button>
-                                    <link
-                                        rel="preconnect"
-                                        href="https://fonts.gstatic.com"
-                                    />
-                                    <link
-                                        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-                                        rel="stylesheet"
-                                    />
-                                    <style>
-                                        .navbar-button {
-                                            background-color: #5eafd2;
-                                            color: black;
-                                            transition-duration: 0.4s;
-                                            color: white;
-                                            height: 50px;
-                                            width: 250px;
-                                            font-weight: bold;
-                                            font-size: 16px;
-                                            padding: 10px 30px;
-                                        }
+                            </div>
+                            <div class="header-element right-block-box">
+                                <button class="navbar-button">
+                                    Painel de Controle
+                                </button>
+                                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+                                    rel="stylesheet" />
+                                <style>
+                                    .navbar-button {
+                                        background-color: #5eafd2;
+                                        color: black;
+                                        transition-duration: 0.4s;
+                                        color: white;
+                                        height: 50px;
+                                        width: 250px;
+                                        font-weight: bold;
+                                        font-size: 16px;
+                                        padding: 10px 30px;
+                                    }
 
-                                        .navbar-button:hover {
-                                            background-color: white;
-                                            color: black;
-                                            font-weight: bold;
-                                            font-size: 16px;
-                                            padding: 10px 30px;
-                                        }
-                                    </style>
-                                </div>
+                                    .navbar-button:hover {
+                                        background-color: white;
+                                        color: black;
+                                        font-weight: bold;
+                                        font-size: 16px;
+                                        padding: 10px 30px;
+                                    }
+                                </style>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <main role="main">
-            <div
-                id="shopify-section-16168518650dc88e38"
-                class="shopify-section"
-            >
-                @if(data)
-                <section class="banner-grid banner2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="section-capture">
-                                    <div class="section-title">
-                                        <div class="section-cont-title">
-                                            <h2>
-                                                <span>{{ data.title }}</span>
-                                            </h2>
-                                        </div>
-                                        <p>{{ data.description }}</p>
+    </div>
+    <main role="main">
+        <div id="shopify-section-16168518650dc88e38" class="shopify-section">
+            @if(data)
+            <section class="banner-grid banner2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="section-capture">
+                                <div class="section-title">
+                                    <div class="section-cont-title">
+                                        <h2>
+                                            <span>{{ data.title }}</span>
+                                        </h2>
+                                    </div>
+                                    <p>{{ data.description }}</p>
+                                </div>
+                            </div>
+                            <div class="content text-justify">
+                                <div class="owl-item" style="width: 350px; margin-right: 30px;">
+                                    <div class="item">
+                                        <a href="./new.html">
+                                            <div class="testi-content">
+
+                                                <span class="testi-img">
+                                                    <img class="img-fluid" src="./imgs/NEWS1.png" href="./new.html">
+                                                </span>
+                                                <div class="testi-info">
+                                                    <div class="testi-author">
+                                                        <h6>Últimas Notícias</h6>
+                                                        <span>Últimas Notícias wyd-thrones</span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="content text-justify">
-                                    <div
-                                        class="col-12 mb-4 p-4 bg-dark rounded-lg"
-                                    >
-                                        <p>{{ data.content }}</p>
-                                    </div>
-                                    <div class="col text-center">
-                                        {{ data.updatedAt ?? data.createdAt }}
+
+                                <div class="owl-item" style="width: 350px; margin-right: 30px;">
+                                    <div class="item">
+                                        <a href="./new.html">
+                                            <div class="testi-content">
+                                                <span class="testi-img">
+                                                    <img class="img-fluid" src="./imgs/MANU.png">
+                                                </span>
+                                                <div class="testi-info">
+                                                    <div class="testi-author">
+                                                        <h6>Manuntenção</h6>
+                                                        <span>Manuntenção wyd-thrones</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
-                @end
-                <style>
+                </div>
+            </section>
+            @end
+            <style>
+                .banner2 {
+                    padding-top: 100px;
+                    padding-bottom: 0px;
+                }
+
+                @media (max-width: 1199px) {
                     .banner2 {
-                        padding-top: 100px;
+                        padding-top: 70px;
                         padding-bottom: 0px;
                     }
+                }
 
-                    @media (max-width: 1199px) {
-                        .banner2 {
-                            padding-top: 70px;
-                            padding-bottom: 0px;
-                        }
+                @media (max-width: 767px) {
+                    .banner2 {
+                        padding-top: 50px;
+                        padding-bottom: 0px;
+                    }
+                }
+
+                /* banner content css */
+                .banner2 .product-banner-wrap {
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-left: -30px;
+                }
+
+                .banner2 .product-banner-wrap .banner-block,
+                .banner2 .product-banner-wrap .banner-product {
+                    width: calc(50% - 30px);
+                    margin-left: 30px;
+                }
+
+                @media (max-width: 1599px) and (min-width: 1200px) {}
+
+                @media (max-width: 1199px) {
+                    .banner2 .product-banner-wrap .banner-block {
+                        width: auto;
+                        margin-bottom: 30px;
                     }
 
-                    @media (max-width: 767px) {
-                        .banner2 {
-                            padding-top: 50px;
-                            padding-bottom: 0px;
-                        }
+                    .banner2 .product-banner-wrap .banner-product {
+                        width: calc(100% - 30px);
                     }
+                }
 
-                    /* banner content css */
+                @media (max-width: 991px) {}
+
+                @media (max-width: 767px) {
                     .banner2 .product-banner-wrap {
-                        display: -ms-flexbox;
-                        display: flex;
-                        -ms-flex-wrap: wrap;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        margin-left: -30px;
+                        margin-left: -15px;
                     }
 
                     .banner2 .product-banner-wrap .banner-block,
                     .banner2 .product-banner-wrap .banner-product {
-                        width: calc(50% - 30px);
-                        margin-left: 30px;
+                        width: calc(100% - 15px);
+                        margin-left: 15px;
+                    }
+                }
+
+                /* banner image css */
+                .banner2 .product-banner-wrap .banner-block {
+                    position: relative;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-img {
+                    height: 100%;
+                    position: relative;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-img .img1 {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
+                    position: absolute;
+                    bottom: 0;
+                    left: -45px;
+                }
+
+                @media (max-width: 991px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
+                        left: -30px;
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
+                        left: 0px;
+                    }
+                }
+
+                /* banner content css */
+                .banner2 .product-banner-wrap .banner-block .banner-content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    left: 30px;
+                    right: 30px;
+                    margin: 0 auto;
+                    z-index: 1;
+                }
+
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content {
+                        width: auto;
+                        left: 15px;
+                        right: 15px;
+                    }
+                }
+
+                /* banner content position css */
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-top {
+                    top: 45px;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-bottom {
+                    bottom: 45px;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-center {
+                    bottom: 50%;
+                    transform: translateY(50%);
+                }
+
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-top {
+                        top: 30px;
                     }
 
-                    @media (max-width: 1599px) and (min-width: 1200px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-bottom {
+                        bottom: 30px;
+                    }
+                }
+
+                /* banner text position css */
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-left {
+                    text-align: left;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-right {
+                    text-align: right;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-center {
+                    text-align: center;
+                }
+
+                /* banner content css */
+                .banner2 .product-banner-wrap .banner-block .banner-content h6 {
+                    color: #ffffff;
+                    font-size: 16px;
+                    padding: 0 45px;
+                    position: relative;
+                    text-transform: uppercase;
+                    line-height: 1;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::before,
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 50%;
+                    transform: translateY(50%);
+                    height: 2px;
+                    width: 30px;
+                    background-color: #ffffff;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::before {
+                    left: 0;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
+                    right: 0;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content h2 {
+                    color: #ffffff;
+                    font-size: 50px;
+                    margin-top: 19px;
+                    text-transform: capitalize;
+                    line-height: 1;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-content a {
+                    margin-top: 22px;
+                }
+
+                @media (max-width: 1199px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content h2 {
+                        font-size: 40px;
                     }
 
-                    @media (max-width: 1199px) {
-                        .banner2 .product-banner-wrap .banner-block {
-                            width: auto;
-                            margin-bottom: 30px;
-                        }
+                    .banner2 .product-banner-wrap .banner-block .banner-content a {
+                        margin-top: 21px;
+                    }
+                }
 
-                        .banner2 .product-banner-wrap .banner-product {
-                            width: calc(100% - 30px);
-                        }
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content h2 {
+                        font-size: 24px;
+                        margin-top: 13px;
                     }
 
-                    @media (max-width: 991px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content a {
+                        margin-top: 16px;
                     }
+                }
+            </style>
+        </div>
 
-                    @media (max-width: 767px) {
-                        .banner2 .product-banner-wrap {
-                            margin-left: -15px;
-                        }
+        <!-- END content_for_index -->
+    </main>
 
-                        .banner2 .product-banner-wrap .banner-block,
-                        .banner2 .product-banner-wrap .banner-product {
-                            width: calc(100% - 15px);
-                            margin-left: 15px;
-                        }
-                    }
 
-                    /* banner image css */
-                    .banner2 .product-banner-wrap .banner-block {
-                        position: relative;
-                    }
+    <script src="./demo-store_files/bold.multicurrency.js.baixados" defer=""></script>
+    <script src="./demo-store_files/bold-currency-bootstrap.js.baixados" defer=""></script>
+</body>
 
-                    .banner2 .product-banner-wrap .banner-block .banner-img {
-                        height: 100%;
-                        position: relative;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-img
-                        .img1 {
-                        height: 100%;
-                        width: 100%;
-                        object-fit: cover;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-img
-                        .img2 {
-                        position: absolute;
-                        bottom: 0;
-                        left: -45px;
-                    }
-
-                    @media (max-width: 991px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-img
-                            .img2 {
-                            left: -30px;
-                        }
-                    }
-
-                    @media (max-width: 767px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-img
-                            .img2 {
-                            left: 0px;
-                        }
-                    }
-
-                    /* banner content css */
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        position: absolute;
-                        left: 30px;
-                        right: 30px;
-                        margin: 0 auto;
-                        z-index: 1;
-                    }
-
-                    @media (max-width: 767px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content {
-                            width: auto;
-                            left: 15px;
-                            right: 15px;
-                        }
-                    }
-
-                    /* banner content position css */
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-content-top {
-                        top: 45px;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-content-bottom {
-                        bottom: 45px;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-content-center {
-                        bottom: 50%;
-                        transform: translateY(50%);
-                    }
-
-                    @media (max-width: 767px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content.banner-content-top {
-                            top: 30px;
-                        }
-
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content.banner-content-bottom {
-                            bottom: 30px;
-                        }
-                    }
-
-                    /* banner text position css */
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-text-left {
-                        text-align: left;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-text-right {
-                        text-align: right;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content.banner-text-center {
-                        text-align: center;
-                    }
-
-                    /* banner content css */
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h6 {
-                        color: #ffffff;
-                        font-size: 16px;
-                        padding: 0 45px;
-                        position: relative;
-                        text-transform: uppercase;
-                        line-height: 1;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h6::before,
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h6::after {
-                        content: '';
-                        position: absolute;
-                        bottom: 50%;
-                        transform: translateY(50%);
-                        height: 2px;
-                        width: 30px;
-                        background-color: #ffffff;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h6::before {
-                        left: 0;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h6::after {
-                        right: 0;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        h2 {
-                        color: #ffffff;
-                        font-size: 50px;
-                        margin-top: 19px;
-                        text-transform: capitalize;
-                        line-height: 1;
-                    }
-
-                    .banner2
-                        .product-banner-wrap
-                        .banner-block
-                        .banner-content
-                        a {
-                        margin-top: 22px;
-                    }
-
-                    @media (max-width: 1199px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content
-                            h2 {
-                            font-size: 40px;
-                        }
-
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content
-                            a {
-                            margin-top: 21px;
-                        }
-                    }
-
-                    @media (max-width: 767px) {
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content
-                            h2 {
-                            font-size: 24px;
-                            margin-top: 13px;
-                        }
-
-                        .banner2
-                            .product-banner-wrap
-                            .banner-block
-                            .banner-content
-                            a {
-                            margin-top: 16px;
-                        }
-                    }
-                </style>
-            </div>
-
-            <!-- END content_for_index -->
-        </main>
-        <script
-            src="./demo-store_files/bold.multicurrency.js.baixados"
-            defer=""
-        ></script>
-        <script
-            src="./demo-store_files/bold-currency-bootstrap.js.baixados"
-            defer=""
-        ></script>
-    </body>
 </html>

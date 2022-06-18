@@ -13,7 +13,7 @@
     <link rel="shortcut icon"
         href="https://cdn.shopify.com/s/files/1/0552/7568/4029/files/favicon_32x32.png?v=1630567728" type="image/png" />
     <!-- Title and description -->
-    <title>guide</title>
+    <title>news</title>
     <!-- Helpers -->
     <!-- /snippets/social-meta-tags.liquid -->
     <meta property="og:type" content="website" />
@@ -451,283 +451,239 @@
                             </div>
                             <div class="content text-justify">
                                 <div class="col-12 mb-4 p-4 bg-dark rounded-lg">
-
                                     <p>{{ data.content }}</p>
-
-                                    <div class="owl-item active" style="width: 350px; margin-right: 30px;">
-                                        <div class="item">
-                                            <div class="testi-content">
-                                                <span class="testi-img">
-                                                    <img class="img-fluid" src="./imgs/MANU.png"">
-                                                </span>
-                                                <div class=" testi-info">
-                                                    <div class="testi-author">
-                                                        <h6>Guia de Iniciante</h6>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-
-                                <div class="owl-item active" style="width: 350px; margin-right: 30px;">
-                                    <div class="item">
-                                        <div class="testi-content">
-                                            <span class="testi-img">
-                                                <img class="img-fluid" src="./imgs/MANU.png">
-                                            </span>
-                                            <div class="testi-info">
-                                                <div class="testi-author">
-                                                    <h6>Comércio</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="col text-center">
+                                    {{ data.updatedAt ?? data.createdAt }}
                                 </div>
-
-                                <div class="owl-item active" style="width: 350px; margin-right: 30px;">
-                                    <div class="item">
-                                        <div class="testi-content">
-                                            <span class="testi-img">
-                                                <img class="img-fluid" src="./imgs/MANU.png">
-                                            </span>
-                                            <div class="testi-info">
-                                                <div class="testi-author">
-                                                    <h6>Comandos</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col text-center">
-                                {{ data.updatedAt ?? data.createdAt }}
                             </div>
                         </div>
                     </div>
                 </div>
-        </div>
-        </section>
-        @end
-        <style>
-            .banner2 {
-                padding-top: 100px;
-                padding-bottom: 0px;
-            }
-
-            @media (max-width: 1199px) {
+            </section>
+            @end
+            <style>
                 .banner2 {
-                    padding-top: 70px;
+                    padding-top: 100px;
                     padding-bottom: 0px;
                 }
-            }
 
-            @media (max-width: 767px) {
-                .banner2 {
-                    padding-top: 50px;
-                    padding-bottom: 0px;
-                }
-            }
-
-            /* banner content css */
-            .banner2 .product-banner-wrap {
-                display: -ms-flexbox;
-                display: flex;
-                -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-                justify-content: center;
-                margin-left: -30px;
-            }
-
-            .banner2 .product-banner-wrap .banner-block,
-            .banner2 .product-banner-wrap .banner-product {
-                width: calc(50% - 30px);
-                margin-left: 30px;
-            }
-
-            @media (max-width: 1599px) and (min-width: 1200px) {}
-
-            @media (max-width: 1199px) {
-                .banner2 .product-banner-wrap .banner-block {
-                    width: auto;
-                    margin-bottom: 30px;
+                @media (max-width: 1199px) {
+                    .banner2 {
+                        padding-top: 70px;
+                        padding-bottom: 0px;
+                    }
                 }
 
-                .banner2 .product-banner-wrap .banner-product {
-                    width: calc(100% - 30px);
+                @media (max-width: 767px) {
+                    .banner2 {
+                        padding-top: 50px;
+                        padding-bottom: 0px;
+                    }
                 }
-            }
 
-            @media (max-width: 991px) {}
-
-            @media (max-width: 767px) {
+                /* banner content css */
                 .banner2 .product-banner-wrap {
-                    margin-left: -15px;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-left: -30px;
                 }
 
                 .banner2 .product-banner-wrap .banner-block,
                 .banner2 .product-banner-wrap .banner-product {
-                    width: calc(100% - 15px);
-                    margin-left: 15px;
+                    width: calc(50% - 30px);
+                    margin-left: 30px;
                 }
-            }
 
-            /* banner image css */
-            .banner2 .product-banner-wrap .banner-block {
-                position: relative;
-            }
+                @media (max-width: 1599px) and (min-width: 1200px) {}
 
-            .banner2 .product-banner-wrap .banner-block .banner-img {
-                height: 100%;
-                position: relative;
-            }
+                @media (max-width: 1199px) {
+                    .banner2 .product-banner-wrap .banner-block {
+                        width: auto;
+                        margin-bottom: 30px;
+                    }
 
-            .banner2 .product-banner-wrap .banner-block .banner-img .img1 {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
+                    .banner2 .product-banner-wrap .banner-product {
+                        width: calc(100% - 30px);
+                    }
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
-                position: absolute;
-                bottom: 0;
-                left: -45px;
-            }
+                @media (max-width: 991px) {}
 
-            @media (max-width: 991px) {
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap {
+                        margin-left: -15px;
+                    }
+
+                    .banner2 .product-banner-wrap .banner-block,
+                    .banner2 .product-banner-wrap .banner-product {
+                        width: calc(100% - 15px);
+                        margin-left: 15px;
+                    }
+                }
+
+                /* banner image css */
+                .banner2 .product-banner-wrap .banner-block {
+                    position: relative;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-img {
+                    height: 100%;
+                    position: relative;
+                }
+
+                .banner2 .product-banner-wrap .banner-block .banner-img .img1 {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+
                 .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
-                    left: -30px;
+                    position: absolute;
+                    bottom: 0;
+                    left: -45px;
                 }
-            }
 
-            @media (max-width: 767px) {
-                .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
-                    left: 0px;
+                @media (max-width: 991px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
+                        left: -30px;
+                    }
                 }
-            }
 
-            /* banner content css */
-            .banner2 .product-banner-wrap .banner-block .banner-content {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                position: absolute;
-                left: 30px;
-                right: 30px;
-                margin: 0 auto;
-                z-index: 1;
-            }
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-img .img2 {
+                        left: 0px;
+                    }
+                }
 
-            @media (max-width: 767px) {
+                /* banner content css */
                 .banner2 .product-banner-wrap .banner-block .banner-content {
-                    width: auto;
-                    left: 15px;
-                    right: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    position: absolute;
+                    left: 30px;
+                    right: 30px;
+                    margin: 0 auto;
+                    z-index: 1;
                 }
-            }
 
-            /* banner content position css */
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-top {
-                top: 45px;
-            }
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content {
+                        width: auto;
+                        left: 15px;
+                        right: 15px;
+                    }
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-bottom {
-                bottom: 45px;
-            }
-
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-center {
-                bottom: 50%;
-                transform: translateY(50%);
-            }
-
-            @media (max-width: 767px) {
+                /* banner content position css */
                 .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-top {
-                    top: 30px;
+                    top: 45px;
                 }
 
                 .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-bottom {
-                    bottom: 30px;
+                    bottom: 45px;
                 }
-            }
 
-            /* banner text position css */
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-left {
-                text-align: left;
-            }
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-center {
+                    bottom: 50%;
+                    transform: translateY(50%);
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-right {
-                text-align: right;
-            }
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-top {
+                        top: 30px;
+                    }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-center {
-                text-align: center;
-            }
+                    .banner2 .product-banner-wrap .banner-block .banner-content.banner-content-bottom {
+                        bottom: 30px;
+                    }
+                }
 
-            /* banner content css */
-            .banner2 .product-banner-wrap .banner-block .banner-content h6 {
-                color: #ffffff;
-                font-size: 16px;
-                padding: 0 45px;
-                position: relative;
-                text-transform: uppercase;
-                line-height: 1;
-            }
+                /* banner text position css */
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-left {
+                    text-align: left;
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content h6::before,
-            .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
-                content: '';
-                position: absolute;
-                bottom: 50%;
-                transform: translateY(50%);
-                height: 2px;
-                width: 30px;
-                background-color: #ffffff;
-            }
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-right {
+                    text-align: right;
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content h6::before {
-                left: 0;
-            }
+                .banner2 .product-banner-wrap .banner-block .banner-content.banner-text-center {
+                    text-align: center;
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
-                right: 0;
-            }
+                /* banner content css */
+                .banner2 .product-banner-wrap .banner-block .banner-content h6 {
+                    color: #ffffff;
+                    font-size: 16px;
+                    padding: 0 45px;
+                    position: relative;
+                    text-transform: uppercase;
+                    line-height: 1;
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content h2 {
-                color: #ffffff;
-                font-size: 50px;
-                margin-top: 19px;
-                text-transform: capitalize;
-                line-height: 1;
-            }
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::before,
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 50%;
+                    transform: translateY(50%);
+                    height: 2px;
+                    width: 30px;
+                    background-color: #ffffff;
+                }
 
-            .banner2 .product-banner-wrap .banner-block .banner-content a {
-                margin-top: 22px;
-            }
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::before {
+                    left: 0;
+                }
 
-            @media (max-width: 1199px) {
+                .banner2 .product-banner-wrap .banner-block .banner-content h6::after {
+                    right: 0;
+                }
+
                 .banner2 .product-banner-wrap .banner-block .banner-content h2 {
-                    font-size: 40px;
+                    color: #ffffff;
+                    font-size: 50px;
+                    margin-top: 19px;
+                    text-transform: capitalize;
+                    line-height: 1;
                 }
 
                 .banner2 .product-banner-wrap .banner-block .banner-content a {
-                    margin-top: 21px;
-                }
-            }
-
-            @media (max-width: 767px) {
-                .banner2 .product-banner-wrap .banner-block .banner-content h2 {
-                    font-size: 24px;
-                    margin-top: 13px;
+                    margin-top: 22px;
                 }
 
-                .banner2 .product-banner-wrap .banner-block .banner-content a {
-                    margin-top: 16px;
+                @media (max-width: 1199px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content h2 {
+                        font-size: 40px;
+                    }
+
+                    .banner2 .product-banner-wrap .banner-block .banner-content a {
+                        margin-top: 21px;
+                    }
                 }
-            }
-        </style>
+
+                @media (max-width: 767px) {
+                    .banner2 .product-banner-wrap .banner-block .banner-content h2 {
+                        font-size: 24px;
+                        margin-top: 13px;
+                    }
+
+                    .banner2 .product-banner-wrap .banner-block .banner-content a {
+                        margin-top: 16px;
+                    }
+                }
+            </style>
         </div>
 
         <!-- END content_for_index -->
     </main>
+
+
     <script src="./demo-store_files/bold.multicurrency.js.baixados" defer=""></script>
     <script src="./demo-store_files/bold-currency-bootstrap.js.baixados" defer=""></script>
 </body>
