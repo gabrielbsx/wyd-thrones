@@ -1176,6 +1176,7 @@
                               <p>Descrição de algum evento.</p>
                            </div>
                         </div>
+
                         <div class="product-banner-wrap">
                            <div class="banner-block banner-hover">
                               <div class="banner-img">
@@ -1190,64 +1191,52 @@
                               </div>
                            </div>
                            <div class="container-post">
-                              <div class="row">
-                                 <div class="col-lg-4 col-md-6">
-                                    <div class="single-blog-post-box">
-                                       <div class="post-image">
-                                          <a href="./news.html">
-                                             <img src="/imgs/NEWS1.png" alt="image">
-                                          </a>
-                                       </div>
-                                       <div class="post-content">
-                                          <ul class="post-meta">
-                                             <li>Por <span>Admin</span></li>
-                                             <li>8 de jun. de 2022</li>
-                                             <li><span>Novidade</span></li>
-                                          </ul>
-                                          <h3><a href="./news.html">Últimas Notícias</a></h3>
-                                          <a style="text-align: right;" href="./news.html" class="read-more-btn">Leia
-                                             mais
-                                             <i class="flaticon-null"></i></a>
-                                       </div>
-                                    </div>
-                                    <div class="single-blog-post-box">
-                                       <div class="post-image">
-                                          <a href="./news.html">
-                                             <img src="/imgs/MANU.png" alt="image">
-                                          </a>
-                                       </div>
-                                       <div class="post-content">
-                                          <ul class="post-meta">
-                                             <li>Por <span>Admin</span></li>
-                                             <li>10 de jun. de 2022</li>
-                                             <li><span>Data Manutenção</span></li>
-                                          </ul>
-                                          <h3><a href="./news.html">Manutenção</a></h3>
-                                          <a style="text-align: right;" href="./news.html" class="read-more-btn">Leia
-                                             mais
-                                             <i class="flaticon-null"></i></a>
-                                       </div>
-                                    </div>
-                                    <style>
-                                       .single-blog-post-box {
-                                          margin-bottom: 30px;
-                                          -webkit-box-shadow: 0 10px 27px 0 rgb(14 8 18 / 50%);
-                                          box-shadow: 0 10px 27px 0 rgb(14 8 18 / 50%);
-                                          background-color: #201e24;
-                                       }
+                              <div class="row row-cols-1 row-cols-md-3 g-4">
+                                 <a href="./new.html">
+                                    <div class="col">
+                                       <div class="card h-80">
+                                          <img src="./imgs/NEWS1.png" class="card-img-top">
+                                          <div class="card-body">
+                                             <h5 class="card-title">Últimas Notícias Wyd-thrones</h5>
+                                             <p class="card-text">Últimas Notícias Wyd-thrones</p>
+                                          </div>
+                                          <div class="card-footer">
+                                             <small class="text-muted">Last updated 3 mins ago</small>
+                                          </div>
 
-                                       .container-post {
-                                          width: 100%;
-                                          padding-right: var(--bs-gutter-x, .75rem);
-                                          padding-left: var(--bs-gutter-x, .75rem);
-                                          margin-right: auto;
-                                          margin-left: auto;
-                                       }
-                                    </style>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <div class="col">
+                                    <div class="card h-80">
+                                       <a href="./new.html">
+                                          <img src="./imgs/MANU.png" class="card-img-top">
+                                          <div class="card-body">
+                                             <h5 class="card-title">Manutenção Wyd-thrones</h5>
+                                             <p class="card-text">Manutenção Wyd-thrones</p>
+                                          </div>
+                                          <div class="card-footer">
+                                             <small class="text-muted">Last updated 3 mins ago</small>
+                                          </div>
+                                       </a>
+                                    </div>
                                  </div>
                               </div>
+
+                              <style>
+                                 .container-post {
+                                    display: flex;
+                                    flex-wrap: nowrap;
+                                    justify-content: center
+                                 }
+
+                                 .card {
+                                    background-color: rgb(29, 27, 45)
+                                 }
+                              </style>
                            </div>
                         </div>
+
                      </div>
             </section>
             <script>
